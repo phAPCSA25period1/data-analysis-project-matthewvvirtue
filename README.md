@@ -105,9 +105,8 @@ You must create a class that represents **one row** of your dataset.
 - Any additional analysis/helper methods as needed  
 
 ### ✏ Include your class diagram
-
-
----
+<img width="613" height="433" alt="image" src="https://github.com/user-attachments/assets/92ee86c1-ef5e-4032-93f0-15768862d326" />
+https://drive.google.com/file/d/19TKWlrYiGORLSLtLcumoX0M2rXvFbLSJ/view?usp=drive_link 
 
 ## 📥 Step 4 — Read Your CSV File Using Scanner
 
