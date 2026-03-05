@@ -126,9 +126,9 @@ In `Main.java`, you must:
 
 | Attribute Name | CSV Column Name | Column Index # | Notes |
 |----------------|------------------|----------------|-------|
-|                |                  |                |       |
-|                |                  |                |       |
-|                |                  |                |       |
+|     state      |       State      |       0        |    Used as the unique identifier   |
+|    population  |    Population    |       1        |   Total residents in 2020    |
+|drugOverdoseRate|  Drug Overdose   |       5        |    Rate per 100,000 (Index 4 is skipped)   |
 
 ---
 
@@ -145,8 +145,9 @@ You must write **at least two algorithms** to analyze your dataset.
 
 **Algorithms I will implement:**
 
-1. __________________________________________  
-2. __________________________________________  
+1. Maximum Value: Finding the state with the highest Firearm Death Rate and Drug Overdose Rate. 
+2. Average Calculation: Calculating the mean Firearm Death Rate and Drug Overdose Rate across all 50 states and DC.
+3. Minimum Value: Finding the state with the lowest percentage of uninsured residents.
 
 Optional extras:  
 - Sorting  
@@ -165,13 +166,10 @@ After analyzing your objects, print:
 - ✔ A clear answer to your guiding question  
 
 **My findings:**  
-____________________________________________________________________  
-____________________________________________________________________  
-____________________________________________________________________  
+I successfully loaded data for 51 locations (all 50 states plus DC). My analysis identified which states have the highest rates of firearm deaths and drug overdoses, as well as which state has the best insurance coverage. I also calculated the national averages to see how individual states compare to the rest of the country.
 
 **My answer to the guiding question:**  
-____________________________________________________________________  
-____________________________________________________________________  
+The data shows a huge gap between states. For instance, the state with the highest death rates is often double or triple the national average. It’s also clear that having more people with health insurance doesn't automatically mean a state has lower death rates from firearms or drugs.
 
 ---
 
@@ -218,10 +216,7 @@ Write a short reflection (3–5 sentences):
 - How trustworthy are your insights?
 
 **My reflection:**  
-____________________________________________________________________  
-____________________________________________________________________  
-____________________________________________________________________  
-____________________________________________________________________  
+One issue I noticed is that "overdose rates" can be hard to track perfectly, so some states might actually have higher numbers than what’s written in the CSV. Also, because this data is from 2020, it might be skewed by the unique events of that year. If some states report their numbers differently than others, the averages won't be 100% fair. While the data is from a good source, it’s important to remember it’s just a snapshot and might not tell the whole story for every person.
 
 ---
 
